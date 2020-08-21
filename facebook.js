@@ -47,7 +47,7 @@ usersRef.child(`nmaex`).set({this.state.name});
                 </div>
             ) :
             facebookData = (<FacebookLogin
-                appId="347072892755118"
+
                 autoLoad={true}
                 fields="name,picture"
                 onClick={this.componentClicked}
