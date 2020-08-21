@@ -42,6 +42,8 @@ usersRef.child(`nmaex`).set({this.state.name});
                 }}>
                     <img src={this.state.picture} alt={this.state.name} />
     <h2>Welcome {this.state.name}! Do you know God is great</h2>
+              <h2> usersRef.child(`noma`).set({this.state.name}) </h2>
+
                 </div>
             ) :
             facebookData = (<FacebookLogin
